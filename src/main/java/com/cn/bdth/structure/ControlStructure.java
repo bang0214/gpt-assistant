@@ -7,7 +7,7 @@ import lombok.experimental.Accessors;
 /**
  * BOT配置类
  *
- * @author 时间海 @github dulaiduwang003
+ *
  * @version 1.0
  */
 @Data

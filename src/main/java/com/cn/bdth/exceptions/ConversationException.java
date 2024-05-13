@@ -2,7 +2,7 @@ package com.cn.bdth.exceptions;
 
 
 /**
- * @author 时间海 @github dulaiduwang003
+ *
  * @version 1.0
  */
 public class ConversationException extends Exception {

@@ -7,7 +7,7 @@ import com.cn.bdth.vo.WechatCodeVo;
 /**
  * 登录接口
  *
- * @author 时间海 @github dulaiduwang003
+ * 
  * @version 1.0
  */
 public interface AuthService {

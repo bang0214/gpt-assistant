@@ -6,7 +6,7 @@ import com.alibaba.fastjson.JSONObject;
 /**
  *  回调
  *
- * @author 时间海 @github dulaiduwang003
+ *
  * @version 1.0
  */
 public interface Callback {

@@ -6,7 +6,7 @@ import lombok.Data;
 /**
  * 翻译异常
  *
- * @author 时间海 @github dulaiduwang003
+ *
  * @version 1.0
  */
 @SuppressWarnings("all")

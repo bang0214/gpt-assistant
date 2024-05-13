@@ -17,7 +17,7 @@ import java.util.concurrent.Executors;
 /**
  * 处理Bing连接
  *
- * @author 时间海 @github dulaiduwang003
+ * 
  * @version 1.0
  */
 @SuppressWarnings("all")

@@ -5,7 +5,7 @@ import lombok.Data;
 
 /**
  * 微信接口异常处理
- * @author 时间海 @github dulaiduwang003
+ * 
  * @version 1.0
  */
 @SuppressWarnings("all")

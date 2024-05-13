@@ -5,7 +5,7 @@ import lombok.Data;
 
 /**
  * 用户违规异常
- * @author 时间海 @github dulaiduwang003
+ * 
  * @version 1.0
  */
 @SuppressWarnings("all")

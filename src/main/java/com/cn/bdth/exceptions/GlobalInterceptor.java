@@ -18,7 +18,7 @@ import java.util.List;
 /**
  * 全局异常处理
  *
- * @author 时间海 @github dulaiduwang003
+ * 
  * @version 1.0
  */
 @RestControllerAdvice

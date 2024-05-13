@@ -8,7 +8,7 @@ import jakarta.websocket.Session;
 import java.util.concurrent.CountDownLatch;
 
 /**
- * @author 时间海 @github dulaiduwang003
+ *
  * @version 1.0
  */
 @ClientEndpoint
