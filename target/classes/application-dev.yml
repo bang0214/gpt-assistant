@@ -1,0 +1,136 @@
+spring:
+  data:
+    # redis配置
+    redis:
+      database: 1
+      host: 127.0.0.1
+      port: 6379
+      password: ''
+  # mysql配置
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/super_bot?useUnicode=true&serverTimezone=Asia/Shanghai&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&autoReconnect=true&allowMultiQueries=true&useSSL=true
+    username: root
+    password: 123
+  # 邮箱
+  mail:
+    host: smtp.qq.com
+    username: 1181696482@qq.com
+    password: 'amfwsibgzbfjbaah'
+    default-encoding: UTF-8
+    properties:
+      mail:
+        smtp:
+          socketFactory:
+            class: javax.net.ssl.SSLSocketFactory
+    port: 587
+
+# 微信
+we-chat:
+  # APPID
+  appId: '微信APPID'
+  # 密钥
+  secret: '微信密钥'
+  # 通知模板
+  template: '微信审核通知模板'
+
+
+# 超级管理员账号密码
+root:
+  # 邮箱
+  email: admin@123.com
+  # 密码
+  password: '123456'
+
+# 百度翻译
+baidu-translation:
+  # 百度翻译Appid
+  appid: '20240510002047989'
+  # 百度翻译密码要
+  secret: '7r9l37Y79YPMusw61uWe'
+
+# 阿里OSS
+ali-oss:
+  endpoint: 'oss-cn-shanghai.aliyuncs.com'
+  accessKey: 'LTAI5t9REjYbRTzDraD2JAvw'
+  secretKey: '0zrF6qvIa08hFCaw0ZxKtqfqJORScs'
+  bucketName: 'gpt-assit'
+  domain: '阿里云图片服务器域名'
+
+# GPT 对话助手配置
+gpt:
+  # 开发者名称
+  author: 'bang'
+  # BOT 中文名
+  botNameChinese: 'gpt-assistant'
+  # BOT 英文名
+  botNameEnglish: 'gpt-assistant'
+
+
+
+# 支付宝配置
+ali-pay:
+  # 支付宝应用ID
+  appId: '支付宝当面付Appid'
+  # 支付宝公钥
+  alipayPublicKey: '支付宝公钥'
+  # 私钥
+  privateKey: '支付宝私钥'
+  # 域名
+  domain: '后端服务器域名:8625'
+
+#以下配置的东西 不是不填 这里只是默认配置 也可以部署完毕后自行去后台中配置
+
+
+config:
+  #基本openAiUrl 基本和增强的URL可以一致
+  openAiUrl: 'https://free.gpt.ge/v1/'
+  #增强openAiUrl
+  openAiPlusUrl: 'https://free.gpt.ge/v1/'
+  # SD API
+  sdUrl: 'SD绘图API 到7860端口即可'
+  # 配置
+  openKey: 'sk-NjoBMd0Q173I6oRz44E31fFe5c8746DaBe761b0b76B78d9d'
+  # GPT-4
+  openPlusKey: 'sk-NjoBMd0Q173I6oRz44E31fFe5c8746DaBe761b0b76B78d9d'
+  # 用户第一次登录奖励次数
+  incentiveFrequency: 10
+  # 观看视频奖励次数
+  videoFrequency: 1
+  # SD消耗次数
+  sdImageFrequency: 5
+  # GPT文生图消耗次数
+  gptTextImageFrequency: 5
+  #GPT消耗次数
+  gptFrequency: 1
+  #GPT消耗次数
+  gptPlusFrequency: 20
+  # 观看视频奖励次数
+  signInFrequency: 1
+  # claude
+  organizationUuid: '3eead2bb-e6b8-49c1-aad4-2bec4e62c709'
+  # 连ID
+  conversationUuid: '082e1205-2081-456a-a0ae-9ea06cc6dc59'
+  # sessionKey
+  sessionKey: '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'
+  # 必应Cookie
+  newBingCookie: '17N4_X-Rj__3RDFF1vvE6MjmySiKfBfWxYTuDY_RHbYE_Hm1IdNp62DFOtLR4NwYXYW4_A_UglI4hZsH7Xmrb7JEvwVGSBK520IsQ-uwazUe7GTEtkWKybqMjFn9-uAy5uzL_updI2EoSdAf1WHuAgxlUTvVhD0Q1b_QU-pBhHgN9eMvPVrn-I5Lhv-1ZQAzDtHpq4Rbtf88Qf8p-_QkpEg'
+
+# 默认终端配置
+control:
+  # 代理ip 只支持 clash
+  proxyIp: 127.0.0.1
+  # 代理端口
+  proxyPort: 7890
+  # 小程序环境 (develop开发板 trial体验版 release正式版)
+  wechatAppEnv: release
+  # 敏感词
+  sensitiveWords: "(CHAT|GPT|OPEN|OPENAI)"
+  # 是否开启敏感词过滤
+  enableSensitive: true
+  # 是否开启GPT-4 不开启则 所有流量指向GPT-3模型
+  enableGptPlus: false
+  # 是否隐藏小程序主页面
+  enableWechatAppMain: true
+  # 是否开启代理了
+  enableProxy: false
+
